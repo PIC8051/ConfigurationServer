@@ -23,7 +23,7 @@ spring:
     url: jdbc:postgresql://kanjipgdb.postgres.database.azure.com/postgres?sslmode=require 
     password: MErcUry@012
     hikari:
-      minimumIdle: 5
+      minimumIdle: 2
       idleTimeout: 11000
   jpa:
     show-sql: false
